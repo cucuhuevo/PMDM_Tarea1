@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Comprobador de Números Primos</string>
+
+    <string name="etiqueta_descripcion">Introduce un número entero positivo para comprobar si es
+        primo o no</string>
+
+    <string name="botonComprobarPrimo">Comprueba si es primo</string>
+
+</resources>
