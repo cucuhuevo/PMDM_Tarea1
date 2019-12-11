@@ -7,4 +7,10 @@
 
     <string name="botonComprobarPrimo">Comprueba si es primo</string>
 
+    <string name="numNoValido">No se ha introducido un número entero válido</string>
+
+    <string name="esPrimo">sí es primo</string>
+
+    <string name="noEsPrimo">no es primo</string>
+
 </resources>

@@ -20,14 +20,17 @@ public class ResultadoComprobarPrimo extends AppCompatActivity {
         TextView textView = findViewById(R.id.textViewResultado);
 
         try {
+            String resultado = "";
 
             if (NumerosPrimos.esPrimo(Integer.parseInt(message))) {
-                textView.setText("El número " + message + " sí es primo");
+                resultado = resultado.concat(message).concat(" ").concat(getString(R.string.esPrimo));
+                textView.setText(resultado);
             } else {
-                textView.setText("El número " + message + " no es primo");
+                resultado = resultado.concat(message).concat(" ").concat(getString(R.string.noEsPrimo));
+                textView.setText(resultado);
             }
         } catch (NumberFormatException nfe){
-            textView.setText("No se ha introducido un número entero válido");
+            textView.setText(R.string.numNoValido);
         }
     }
 
